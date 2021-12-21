@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
+          © 2018 - {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.cryptoskyplatform.org">CryptoSky Platform</a>
         </footer>
