@@ -22,9 +22,9 @@ function CardFunct() {
         ]}
       >
         <Meta
-          avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
-          title="Card title"
-          description="This is the description"
+          avatar={<Avatar src="https://www.cryptoskyplatform.org/SMB_ELONE.png" />}
+          title="SMBElon"
+          description="The SMB Token Project is a group tokens, each token will have a specific function in the SMB ecosyestem. The SMB Token was created using the ERC-20 protocol and is the back bone of our echo system. "
         />
       </Card>
     )
