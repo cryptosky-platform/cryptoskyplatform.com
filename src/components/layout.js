@@ -13,6 +13,7 @@ import Header from "./header"
 import "./layout.css"
 import LoopFunction from "./typescript/antd/LoopBanner"
 import CardFunct from "./typescript/antd/CardFunc"
+import resTablefun from "./typescript/csp/Table"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -39,6 +40,7 @@ const Layout = ({ children }) => {
           {children}
           <LoopFunction />
           <CardFunct />
+          <resTablefun />
         </main>
 
         <footer
