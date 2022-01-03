@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 import LoopFunction from "./typescript/antd/LoopBanner"
+import CardFunct from "./typescript/antd/CardFunc"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -37,6 +38,7 @@ const Layout = ({ children }) => {
         <main>
           {children}
           <LoopFunction />
+          <CardFunct />
         </main>
 
         <footer
