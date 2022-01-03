@@ -13,12 +13,10 @@ type DataProps = {
 
 const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
-    <Seo title="Using TypeScript" />
+    <Seo title="About " />
     <h1>CryptoSky Platform!</h1>
     <p>
-      This means that you can create and write <em>.ts/.tsx</em> files for your
-      pages, components etc. Please note that the <em>gatsby-*.js</em> files
-      (like gatsby-node.js) currently don't support TypeScript yet.
+      N
     </p>
     <p>
       For type checking you'll want to install <em>typescript</em> via npm and
@@ -30,12 +28,12 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
     </p>
     <p>
       To learn more, head over to our{" "}
-      <a href="https://www.gatsbyjs.com/docs/typescript/">
-        documentation about TypeScript
+      <a href="https://www.cryptoskyplatform.org">
+        documentation about CryptoSky Platform
       </a>
       .
     </p>
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/">Homepage</Link>
   </Layout>
 )
 
