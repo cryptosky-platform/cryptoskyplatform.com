@@ -10,10 +10,10 @@ function LoopFunction() {
         banner
         message={
           <TextLoop mask>
-            <div>Notice message one</div>
-            <div>Notice message two</div>
-            <div>Notice message three</div>
-            <div>Notice message four</div>
+            <div>5G-CASH made an Official Partnership with CryptoSky Platform</div>
+            <div>MoonHome made an General Partnership with CryptoSky Platform</div>
+            <div>Galleon Coin made and Official Partnership with CryptoSky Platform</div>
+            <div>NewYorkCoin made an General Partnership with CryptoSky Platform</div>
           </TextLoop>
         }
       />

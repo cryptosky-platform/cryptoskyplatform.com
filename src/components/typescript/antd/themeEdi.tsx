@@ -65,27 +65,27 @@ const FormSizeDemo = () => {
           <Button>Button</Button>
         </div>
         <div className="example">
-          <Card title="Card">
+          <Card title="Token Specification's">
             <Table
               columns={[
                 { title: 'Name', dataIndex: 'name' },
-                { title: 'Age', dataIndex: 'age' },
+                { title: 'Data', dataIndex: 'data' },
               ]}
               dataSource={[
                 {
                   key: '1',
                   name: 'John Brown',
-                  age: 32,
+                  data: 32,
                 },
                 {
                   key: '2',
                   name: 'Jim Green',
-                  age: 42,
+                  data: 42,
                 },
                 {
                   key: '3',
                   name: 'Joe Black',
-                  age: 32,
+                  data: 32,
                 },
               ]}
             />

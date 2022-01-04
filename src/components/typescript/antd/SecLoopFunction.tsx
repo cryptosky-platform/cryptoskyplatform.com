@@ -9,7 +9,7 @@ function SecLoop() {
           banner
           message={
             <Marquee pauseOnHover gradient={false}>
-              I can be a React component, multiple React components, or just some text.
+              Wecome to CryptoSky Platform
             </Marquee>
           }
         />
