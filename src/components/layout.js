@@ -13,6 +13,8 @@ import Header from "./header"
 import "./layout.css"
 import LoopFunction from "./typescript/antd/LoopBanner"
 import CardFunct from "./typescript/antd/CardFunc"
+import SecLoop from "./typescript/antd/SecLoopFunction"
+import FormSizeDemo from "./typescript/antd/themeEdi"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -39,6 +41,8 @@ const Layout = ({ children }) => {
           {children}
           <LoopFunction />
           <CardFunct />
+          <SecLoop />
+          <FormSizeDemo />
         </main>
         <footer
           style={{
