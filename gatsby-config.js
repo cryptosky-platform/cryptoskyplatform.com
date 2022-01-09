@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `CryptoSky Platform`,
+    description: `CryptoSky Platform is an online platform that provides services for blockchain project development. They are a team of young individuals from different parts of the world with the sole purpose of delivering marketing services WORLDWIDE. The team assists various projects to manage & identify result-driving strategies, implement project campaigns as well as monitor results.`,
+    author: `@cs-joy`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
