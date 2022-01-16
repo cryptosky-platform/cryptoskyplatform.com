@@ -51,7 +51,7 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          © 2018 - {new Date().getFullYear()}, Built with
+          © 2018 - {new Date().getFullYear()}, Built by
           {` `}
           <a href="https://www.cryptoskyplatform.org" title="CryptoSky Platform">CS Team</a>
         </footer>

@@ -2,8 +2,8 @@
   "name": "cryptosky-platform",
   "private": true,
   "description": "CryptoSky Platform Web App",
-  "version": "0.1.4",
-  "author": "AJ <csjoy0363@yahoo.com>",
+  "version": "0.1.5",
+  "author": "RJ <csjoy0363@yahoo.com>",
   "dependencies": {
     "antd": "^4.18.2",
     "gatsby": "^4.4.0",
