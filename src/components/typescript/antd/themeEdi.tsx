@@ -37,13 +37,13 @@ const FormSizeDemo = () => {
         <div className="example">
           <Tabs defaultActiveKey="1">
             <TabPane tab="Tab 1" key="1">
-              Content 01
+              First Content
             </TabPane>
             <TabPane tab="Tab 2" key="2">
-              Content 02
+              Second Content
             </TabPane>
             <TabPane tab="Tab 3" key="3">
-              Content 03
+              Third Content
             </TabPane>
           </Tabs>
         </div>
