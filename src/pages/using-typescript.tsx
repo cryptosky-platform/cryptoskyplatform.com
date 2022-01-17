@@ -19,8 +19,7 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
       N
     </p>
     <p>
-      For type checking you'll want to install <em>typescript</em> via npm and
-      run <em>tsc --init</em> to create a <em>tsconfig</em> file.
+      the world
     </p>
     <p>
       You're currently on the page "{path}" which was built on{" "}
