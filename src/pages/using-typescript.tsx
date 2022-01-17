@@ -5,6 +5,10 @@ import { PageProps, Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+//components
+import * as Sider from '../components/typescript/antd/menuTheme'
+import * as ResponsiveSection from '../components/typescript/antd/Res'
+
 type DataProps = {
   site: {
     buildTime: string
@@ -15,12 +19,8 @@ const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
     <Seo title="About " />
     <h1>CryptoSky Platform!</h1>
-    <p>
-      N
-    </p>
-    <p>
-      the world
-    </p>
+    <ResponsiveSection />
+    <Sider />
     <p>
       You're currently on the page "{path}" which was built on{" "}
       {data.site.buildTime}.
