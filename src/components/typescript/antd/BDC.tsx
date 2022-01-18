@@ -7,8 +7,9 @@ class BreadC extends React.Component {
         return (
             <>
                 <Breadcrumb>
-                    <Breadcrumb.Item href="">
+                    <Breadcrumb.Item href="/">
                         <HomeOutlined />
+                        <span>Home</span>
                     </Breadcrumb.Item>
                     <Breadcrumb.Item href="">
                         <UserOutlined />
