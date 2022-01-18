@@ -6,8 +6,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 //components
-import * as Sider from '../components/typescript/antd/menuTheme'
-import * as ResponsiveSection from '../components/typescript/antd/Res'
+import Sider from '../components/typescript/antd/menuTheme'
+import ResponsiveSection from '../components/typescript/antd/Res'
 
 type DataProps = {
   site: {
@@ -18,7 +18,7 @@ type DataProps = {
 const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
     <Seo title="About " />
-    <h1>CryptoSky Platform!</h1>
+    <h1>Typescript!</h1>
     <ResponsiveSection />
     <Sider />
     <p>

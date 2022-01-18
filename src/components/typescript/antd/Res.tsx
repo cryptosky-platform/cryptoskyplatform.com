@@ -1,5 +1,5 @@
-import * as React from 'react';
-import { PageHeader, Tabs, Button, Statistic, Descriptions } from 'antd';
+import * as React from'react'
+import { PageHeader, Tabs, Button, Statistic, Descriptions } from 'antd'
 
 const { TabPane } = Tabs;
 
@@ -43,28 +43,34 @@ const Content = ({ children, extra }) => (
   </div>
 );
 
-const ResponsiveSection = (
-  <PageHeader
-    className="site-page-header-responsive"
-    onBack={() => window.history.back()}
-    title="Title"
-    subTitle="This is a subtitle"
-    extra={[
-      <Button key="3">Operation</Button>,
-      <Button key="2">Operation</Button>,
-      <Button key="1" type="primary">
-        Primary
-      </Button>,
-    ]}
-    footer={
-      <Tabs defaultActiveKey="1">
-        <TabPane tab="Details" key="1" />
-        <TabPane tab="Rule" key="2" />
-      </Tabs>
-    }
-  >
-    <Content extra={extraContent}>{renderContent()}</Content>
-  </PageHeader>
-)
+class Sider extends React.Component {
+  render() {
+    return (
+      <>
+        <PageHeader
+          className="site-page-header-responsive"
+          onBack={() => window.history.back()}
+          title="Title"
+          subTitle="This is a subtitle"
+          extra={[
+            <Button key="3">Operation</Button>,
+            <Button key="2">Operation</Button>,
+            <Button key="1" type="primary">
+              Primary
+            </Button>,
+          ]}
+          footer={
+            <Tabs defaultActiveKey="1">
+              <TabPane tab="Details" key="1" />
+              <TabPane tab="Rule" key="2" />
+            </Tabs>
+          }
+        >
+        <Content extra={extraContent}>{renderContent()}</Content>
+        </PageHeader>
+      </>
+    )
+  }
+}
 
-export default ResponsiveSection
+export default Sider 

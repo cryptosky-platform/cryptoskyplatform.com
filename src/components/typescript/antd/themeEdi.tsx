@@ -1,5 +1,6 @@
-import * as React from "react";
-import { useState } from 'react';
+import * as React from 'react'
+import { useState } from 'react'
+import 'antd/dist/antd.css'
 import {
   ConfigProvider,
   Radio,
@@ -11,7 +12,7 @@ import {
   Table,
   Card,
   Tabs,
-} from 'antd';
+} from 'antd'
 
 const { TabPane } = Tabs;
 

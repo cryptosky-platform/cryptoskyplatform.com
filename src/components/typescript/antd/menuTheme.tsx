@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Menu, Switch } from 'antd';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
+import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 
 const { SubMenu } = Menu;
 
