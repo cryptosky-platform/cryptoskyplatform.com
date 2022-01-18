@@ -53,7 +53,7 @@ const Layout = ({ children }) => {
         >
           © 2018 - {new Date().getFullYear()}, Built by
           {` `}
-          <a href="https://www.cryptoskyplatform.org" title="CryptoSky Platform">CS Team</a>
+          <a href="https://www.cryptoskyplatform.org" title="Sky">CS Team</a>
         </footer>
       </div>
     </>
