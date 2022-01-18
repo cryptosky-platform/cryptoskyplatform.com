@@ -11,11 +11,6 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
-import LoopFunction from "./typescript/antd/LoopBanner"
-import CardFunct from "./typescript/antd/CardFunc"
-import SecLoop from "./typescript/antd/SecLoopFunction"
-import FormSizeDemo from "./typescript/antd/themeEdi"
-import MenuSecFunction from "./typescript/antd/BottomSection"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -40,11 +35,6 @@ const Layout = ({ children }) => {
       >
         <main>
           {children}
-          <LoopFunction />
-          <CardFunct />
-          <SecLoop />
-          <FormSizeDemo />
-          <MenuSecFunction />
         </main>
         <footer
           style={{
@@ -53,7 +43,7 @@ const Layout = ({ children }) => {
         >
           © 2018 - {new Date().getFullYear()}, Built by
           {` `}
-          <a href="https://www.cryptoskyplatform.org" title="Sky">CS Team</a>
+          <a href="https://www.cryptoskyplatform.org" title="CryptoSky Platform">CS Team</a>
         </footer>
       </div>
     </>

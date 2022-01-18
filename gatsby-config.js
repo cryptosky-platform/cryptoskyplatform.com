@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `CryptoSky Platform`,
+    title: `CryptoSky`,
     description: `CryptoSky Platform is an online platform that provides services for blockchain project development. They are a team of young individuals from different parts of the world with the sole purpose of delivering marketing services WORLDWIDE. The team assists various projects to manage & identify result-driving strategies, implement project campaigns as well as monitor results.`,
     author: `@cs-joy`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://cryptosky.netlify.app/`,
   },
   plugins: 
   [
