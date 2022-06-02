@@ -5,3 +5,5 @@ Deplyoing
 
 @npm version 8.1.4
 @node version 17.20
+
+[CryptoSky Platform](https://www.cryptoskyplatform.com)
